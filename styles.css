@@ -141,3 +141,54 @@ body {
 .plant-item button:hover {
   background-color: rgb(241, 97, 45);
 }
+.trusted-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 30px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.florist-section img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.trusted-section {
+  max-width: 500px;
+  position: absolute;
+  top: 1500px;
+  right: 10px;
+  left: 16%;
+  width: 500px,;
+  z-index: 10;
+
+
+}
+
+.trusted-badge {
+  width: 120px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.trusted-section h2 {
+  font-size: 32px;
+  color: #333;
+  
+  padding-left: 100px;
+  margin-top: 10px;
+}
+
+.trusted-description p {
+  font-size: 10px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1;
+  right: 300px;
+  padding-left: 100px;
+}
